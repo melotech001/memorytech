@@ -1,0 +1,9 @@
+# Netlify configuration for TechMemory
+[build]
+  # Publish the repository root (site entry is index.html)
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

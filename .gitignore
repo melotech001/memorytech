@@ -1,0 +1,35 @@
+node_modules/
+.env
+.DS_Store
+.vscode/
+dist/
+npm-debug.log*
+yarn-error.log*
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Build
+dist/
+build/
+
+# Old files
+memorytech.html
